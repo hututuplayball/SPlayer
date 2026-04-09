@@ -5,8 +5,8 @@
   "installCommand": "pnpm install --ignore-scripts",
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "https://api-enhanced-km0s6yxdk-hututuplayballs-projects.vercel.app/$1"
+      "source": "/:path*",
+      "destination": "https://api-enhanced-km0s6yxdk-hututuplayballs-projects.vercel.app/:path*"
     }
   ]
 }
